@@ -76,8 +76,8 @@ h2 {
 }
 @media only screen and (max-width: 480px) {
   .card {
-    width: 60%;
     margin-bottom: 0px;
+    margin-left: 0px;
   }
   .card-image {
     width: 99.9%;
