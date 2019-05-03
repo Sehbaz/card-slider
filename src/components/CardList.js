@@ -5,6 +5,7 @@ import "./CardList.css";
 class CardList extends Component {
   render() {
     const { data } = this.props;
+    console.log(data);
     var size = 3;
 
     return (
