@@ -32,7 +32,7 @@ class Cards extends Component {
               {" "}
               <img src={Man} className="card-profile-image" />
             </div>
-            <div className="card1">
+            <div>
               <h1>{name}</h1>
               <h2>{subtitle}</h2>
             </div>

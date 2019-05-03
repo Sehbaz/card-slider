@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----- Main Container -----*/
 .page {
   display: flex;
   justify-content: center;
@@ -6,9 +11,7 @@
   background-color: #f6f6f6;
   padding-bottom: 26px;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 .page-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -22,6 +25,7 @@ body {
   height: 9px;
   width: 9px;
 }
+/*----- Navigation Bar ------*/
 .nav button {
   border: none;
   background: none;
@@ -35,6 +39,7 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+/*----- Responsive ----- */
 @media only screen and (max-width: 1100px) {
   .nav button {
     margin-top: 26px;
